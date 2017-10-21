@@ -1,0 +1,188 @@
+/*边框*/
+.border_grey{
+    border:1px solid #DDDDDD
+}
+.padding-l-10{
+    padding-left:10px;
+}
+.height_40{
+    height:50px;
+    line-height:50px;
+}
+.float_left{
+    float:left;
+}
+.float_right{
+    float:right;
+}
+.end_input{
+    float:left;
+    border:1px solid #A9A9A9;
+    height:30px;
+    line-height:30px;
+    width:50px;
+    text-align:center
+}
+.margin_right_50{
+    margin-right:50px;
+}
+.margin_right_10{
+    margin-right:10px;
+}
+.input_search {
+    height: 30px;
+    margin-left: 10px;
+}
+.grid{
+    height: 30px; width:100px; line-height: 30px; text-align:center; margin-top: 10px;
+}
+/*表格*/
+td {
+    /*text-align:center; !*设置水平居中*!*/
+    vertical-align:middle;/*设置垂直居中*/
+}
+
+.w2{
+    letter-spacing:3em; /*如果需要y个字两端对齐，则为(x-y)/(y-1),这里是（4-2）/(2-1)=2em */
+    margin-right:-3em; /*同上*/
+}
+.w3{
+    letter-spacing:1em; /*如果需要y个字两端对齐，则为(x-y)/(y-1),这里是（4-3）/(3-1)=0.5em */
+    margin-right:-1em; /*同上*/
+}
+.w4{
+    letter-spacing:0.3331em; /*如果需要y个字两端对齐，则为(x-y)/(y-1),这里是（4-3）/(3-1)=0.5em */
+    margin-right:-0.3331em; /*同上*/
+}
+
+.lin_input{
+    clear:both;
+    padding-bottom: 40px;
+
+}
+.label_t{
+    float:left;
+    width:100px;
+    font-weight:bold;
+    /*background-color: #00aa00;*/
+    /*vertical-align:middle;
+    text-align:center*/
+    height:30px;
+    line-height:30px
+}
+.label_i{
+    padding-top:10px;
+}
+.m_30_l{
+    float:left;
+    margin-left: 30px;
+}
+.input_i{
+
+    width:400px;
+    height:30px;
+
+}
+.input_i_350{
+    width:350px;
+    height:30px;
+}
+.input_o{
+
+    float:left;
+    margin-left: 15px;
+}
+
+.input_select{
+    width:100px;
+    height:30px;
+}
+.form_t{
+    width:80%;
+    /*background-color: #2fcbfd;*/
+}
+.remark_o{
+    margin-left: 15px;
+    float:left;
+    /*background-color: #0000aa;*/
+    height:30px;
+    line-height:30px;
+
+}
+.remark_i{
+    color:#F00
+}
+.text_red{
+    color:#F00
+}
+#list{
+    overflow:hidden;
+    /*width:100%;*/
+    padding-left: 0px;
+
+    width:400px;
+}
+
+#list li{
+    /*display：block
+    width:33%
+    float:left;*/
+    width:33.3333%;
+    float:left;
+    list-style-type:none;
+}
+#img_remark{
+    clear:both;
+    padding-left: 100px;
+}
+.img_rem{
+    margin-left:15px;
+    display: none;
+}
+.mysubmit{
+    width:100px;
+    height:40px;
+    background-color: #286090;
+    border-radius:10px;
+}
+.fileinput-button input{
+    /*position:absolute;*/
+    right: 0px;
+    top:0px;
+    width:50px;
+    height:1px;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    /*font-size: 100px;*/
+}
+.fileInputContainer{
+    /*background:url(../../static/images/upload.png) no-repeat;*/
+    position:relative;
+    width: 150px; height: 130px;  float: left; margin-top: 20px;
+    background-size: 100% 100%;
+}
+#fox_my {
+    width:600px; height: 400px; border: 1px solid #D4CD49; position:fixed;left:365px;top:30%;
+    display: none;
+}
+#pic{
+    width:100px;
+    height:100px;
+    /*border-radius:50% ;*/
+    margin:10px auto;
+    cursor: pointer;
+}
+.input_back_color{
+    background-color: lightgray;
+}
+.li_left{
+    float:left
+}
+.margin_l_50{
+    margin-left:50px
+}
+#footer{
+    /*position: absolute;*/
+    bottom:0;
+    height:60px;
+}
